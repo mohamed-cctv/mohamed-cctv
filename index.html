@@ -123,15 +123,16 @@ footer b{color:var(--text)}
   <span class="kicker">دليل تعليمي مفتوح بالعربي</span>
   <h1>Mohamed CCTV</h1>
   <p class="sub">مرجع عملي مبسّط عن كاميرات المراقبة وغرف التحكم ومهام المراقب، مع تركيز خاص على العمل داخل المولات التجارية.</p>
-  <div class="live"><span class="dot" style="width:9px;height:9px;border-radius:50%;background:var(--red);box-shadow:0 0 8px var(--red);animation:blink 1.2s steps(2) infinite"></span>بث مباشر · <b id="clock">--:--:--</b></div>
+  <div class="live">التوقيت المحلي · <b id="clock">--:--:--</b></div>
 </header>
 
 <div class="wall">
-  <div class="cam"><span>CAM 01</span><span class="rec"></span><i>المدخل الرئيسي</i></div>
+  <div class="cam"><span>CAM 01</span><i>المدخل الرئيسي</i></div>
   <div class="cam"><span>CAM 02</span><i>السلالم المتحركة</i></div>
   <div class="cam"><span>CAM 03</span><i>الجراج - B1</i></div>
   <div class="cam"><span>CAM 04</span><i>منطقة الكاشير</i></div>
 </div>
+<p style="position:relative;z-index:1;max-width:1060px;margin:10px auto 0;padding:0 18px;text-align:center;color:var(--muted);font-size:.78rem">محاكاة توضيحية بتصميم افتراضي — الشاشات أعلاه للزينة ولا تعرض كاميرات حقيقية ولا بثاً مباشراً.</p>
 
 <main>
 
@@ -293,4 +294,4 @@ var io=new IntersectionObserver(function(es){
 document.querySelectorAll('section').forEach(function(s){io.observe(s)});
 </script>
 </body>
-</html>
+  </html>
