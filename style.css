@@ -77,7 +77,7 @@ ol.steps li b{color:#fff}
 figure.fig{margin:22px 0;background:linear-gradient(180deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:18px;padding:12px;overflow:hidden}
 figure.fig{overflow-x:auto}
 figure.fig svg{display:block;width:100%;height:auto}
-@media(max-width:760px){figure.fig svg{min-width:760px}figure.fig:not(.hero-fig)::before{content:'← اسحب الصورة لمشاهدة التفاصيل →';display:block;text-align:center;color:var(--muted);font-size:.72rem;padding-bottom:4px}}
+@media(max-width:760px){figure.fig svg{min-width:660px}figure.fig:not(.hero-fig)::before{content:'← اسحب الصورة لمشاهدة التفاصيل →';display:block;text-align:center;color:var(--muted);font-size:.72rem;padding-bottom:4px}}
 figure.fig figcaption{color:var(--muted);font-size:.86rem;text-align:center;padding:8px 8px 2px}
 .tbl{width:100%;overflow-x:auto;margin-top:14px;border:1px solid var(--line);border-radius:14px}
 table{border-collapse:collapse;width:100%;min-width:480px;font-size:.93rem}
